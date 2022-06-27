@@ -1,0 +1,120 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(2, 2, 26);
+}
+
+#particle-js {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.heading {
+  position: relative;
+  /* background-image: url("img/blob-scene-haikei (3).svg"); */
+  color: white;
+  background-size: cover;
+  height: 100vh;
+  height: 100vh;
+  max-width: 100%;
+  margin: 0;
+}
+
+/* .heading .container {
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+} */
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  font-size: 50px;
+}
+.primary-heading {
+  margin-top: 400px;
+  padding-right: 150px;
+}
+
+.klik {
+}
+.wave {
+  /* background-image: url("img/wave-haikei.svg"); */
+  background-size: cover;
+  height: 200px;
+}
+
+.gallery {
+  /* background-image: url("img/circle-scatter-haikei (4).svg"); */
+  color: white;
+  background-size: cover;
+  max-width: 100%;
+  margin: 0;
+}
+
+
+
+h1 {
+  position: relative;
+  overflow: hidden;
+}
+
+/* h1 .box {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+  background: rgb(20, 65, 22);
+  height: 1vw;
+  z-index: -1;
+} */
+
+h1 .hi {
+  display: inline-block;
+}
+
+/* .audio {
+  position: absolute;
+  left: -999px;
+  top: -999px;
+} */
+#tampil{
+  transition-delay:6s;
+}
+.hope{
+  transition-delay:3.8s;
+}
+
+.get{
+  transition-delay:4s;
+}
+.everything {
+  transition-delay: 4.5s;
+}
+
+.want {
+  transition-delay: 4.7s;
+}
+
+.this {
+  transition-delay: 5.3s;
+}
+
+.biutyful {
+  transition-delay: 5.5s;
+}
+.goodbye {
+  transition-delay: 10.9s;
+}
+
+.klik a:hover span {
+  color: rgb(39, 189, 114);
+  transition: all 0.5s ease;
+}
