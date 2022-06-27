@@ -1,3 +1,16 @@
+const gallery = document.getElementById("gallery");
+var a = document.getElementById("tampil");
+var audio = new Audio("audio/biutyful.mp3");
+audio.preload = "auto";
+function putarmusic() {
+  // this.audioCh1.pause();
+  // this.audioCh1.src = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAVFYAAFRWAAABAAgAZGF0YQAAAAA=";
+  tampil.style.display = "none";
+  stopAudio(audio);
+  audio.play();
+}
+
+
 const words = ["Selamat Ulang Tahun !!", "Happy Birthday !!", "祝 你 生 日 快 乐 !!", "   ¡Feliz cumpleaños!!","Bon anniversaire !!"];
 let cursor = gsap.to(".cursor", { opacity: 0, ease: "power2.inOut", repeat: -1 });
 let boxTl = gsap.timeline();
@@ -20,16 +33,6 @@ words.forEach((word) => {
 function stopAudio(musik) {
   musik.pause();
   musik.currentTime = 0;
-}
-const gallery = document.getElementById("gallery");
-var a = document.getElementById("tampil");
-function putarmusic() {
-  var audio = new Audio("audio/biutyful.mp3");
-  // this.audioCh1.pause();
-  // this.audioCh1.src = "data:audio/wav;base64,UklGRiQAAABXQVZFZm10IBAAAAABAAEAVFYAAFRWAAABAAgAZGF0YQAAAAA=";
-  tampil.style.display = "none";
-  stopAudio(audio);
-  audio.play();
 }
 
 // gsap.registerPlugin(ScrollTrigger);
